@@ -1,0 +1,80 @@
+body {
+    width: 21cm;
+    height: 29.7cm;
+    margin:5mm 5mm 5mm 5mm;
+    padding:10mm 15mm 10mm 15mm;
+    outline-color: black;
+    outline:1px solid;
+    background-color:white;
+    font-family:"微軟正黑體";
+}
+
+
+#header {
+    margin:1mm;
+    padding:1mm;
+}
+
+h1 {
+    display: inline;
+    font-weight: bold;
+}
+
+h2 {
+    display:inline;
+}
+
+#infoLeftside {
+    display: inline-block;
+    border:0px dotted lightgray;
+    padding: 1mm;
+    margin: 1mm 1mm 1mm 1mm;
+}
+
+
+#infoRightside {
+    display: inline-block;
+    border:0px dotted lightgray;
+    padding: 1mm;
+    margin: 1mm;
+}
+
+#blackbar {
+    margin:0px auto;
+    height:3px;
+    width: 21cm;
+    background-color: black;
+}
+
+#row {
+    margin:2mm;
+    padding:0mm;
+    border:0px solid black;
+    height:55mm;
+}
+
+#photoGrid {
+    display: inline-block;
+    border:1px dotted lightgray;
+    padding: 1mm;
+    margin: 1mm;
+    height:50mm;
+    width:62mm;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+
+
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 10mm 15mm 10mm 15mm; 
+        /* change the margins as you want them to be. */
+    }
+} 
